@@ -1,0 +1,77 @@
+#body{
+    font-size: 10px;
+}
+
+#header{
+    margin: auto;
+    width: 60em;
+    background-color: #eef;
+    text-align: center;
+}
+
+#game_container{
+    margin: auto;
+    width: 55em;
+    height: 40em;
+    background-color: #2f2;
+}
+
+#sidebar{
+    display: inline-block;
+    width: 15em;
+    height: 30em;
+    background-color: #22f;
+}
+
+#inventory{
+    width: 15em;
+    height: 15em;
+    background-color: #e45;
+}
+
+#stats{
+    width: 15em;
+    height: 15em;
+    background-color: #38f;
+}
+
+#main_container{
+    float:right;
+    width: 40em;
+    height: 30em;
+    background-color: #ff2;
+}
+
+#battle_screen{
+    display: none;
+}
+
+#map_screen{
+    width: 40em;
+    height: 30em;
+    background-color: #ef7;
+}
+
+#map_table{
+    border-collapse: collapse;
+}
+
+#map_table td{
+    width: 5em;
+    height: 5em;
+    border: 1px solid black;
+}
+
+#map_grid_cell{
+    padding: 0px;
+    margin:0px;
+    width: 5em;
+    height: 5em;
+    border: 1px solid black;
+}
+
+#description_container{
+    width: 55em;
+    height: 10em;
+    background-color: #2ff;
+}

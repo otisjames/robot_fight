@@ -3,8 +3,39 @@
     <head>
         <meta charset="utf-8">
         <title>Robot fight</title>
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-ROBOT FIGHT
+        <div id='header'>ROBOT FIGHT</div>
+
+        <div id='game_container'>
+
+            <div id='sidebar'>
+                <div id='inventory'></div>
+                <div id='stats'></div>
+            </div>
+
+            <div id='main_container'>
+                <div id='map_screen'>
+                    <table id="map_table"></table>
+                </div>
+                <div id='battle_screen'></div>
+                <div id='loot_screen'></div>
+            </div>
+
+            <div id='description_container'></div>
+
+        </div>
+
+        <script src="js/parameters.js" charset="utf-8"></script>
+        <script src="js/view.js" charset="utf-8"></script>
+        <script src="js/controller.js" charset="utf-8"></script>
+        <script src="js/player.js" charset="utf-8"></script>
+        <script src="js/encounter.js" charset="utf-8"></script>
+        <script src="js/creature.js" charset="utf-8"></script>
+        <script src="js/item.js" charset="utf-8"></script>
+        <script src="js/stats.js" charset="utf-8"></script>
+        <script src="js/map_tile.js" charset="utf-8"></script>
+        <script src="js/game.js" charset="utf-8"></script>
     </body>
 </html>
