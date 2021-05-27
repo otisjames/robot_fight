@@ -17,7 +17,7 @@ robot_game.init = function(){
     //create map table element
     robot_game.view.create_map_table()
 
-    robot_game.player = new robot_game.Player()
+    robot_game.player = new robot_game.Player({health:params.PLAYER_HEALTH})
 }
 
 window.onload = robot_game.init
